@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AADgoogle">
-        <activity android:name=".Notification"></activity>
+        <activity android:name=".DrawableThemesStyles"></activity>
+        <activity android:name=".Notification" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

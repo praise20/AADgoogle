@@ -3,4 +3,6 @@
     <string name="notify_me">Notify me</string>
     <string name="update_me">Update me</string>
     <string name="cancel_me">Cancel me</string>
+    <string name="notification_activity">Notification Activity</string>
+    <string name="drawablethemestyle">DrawableThemeStyle</string>
 </resources>

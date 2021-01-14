@@ -22,4 +22,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, Notification.class);
         startActivity(intent);
     }
+
+    public void theme(View view) {
+        Button button = (Button) findViewById(R.id.theme_button);
+        Intent intent = new Intent(this, DrawableThemesStyles.class);
+        startActivity(intent);
+    }
 }

@@ -13,7 +13,18 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:onClick="notification"
-        android:text="Notification Activity"
+        android:text="@string/notification_activity"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/theme_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="theme"
+        android:text="@string/drawablethemestyle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/notify_button" />
 </androidx.constraintlayout.widget.ConstraintLayout>
